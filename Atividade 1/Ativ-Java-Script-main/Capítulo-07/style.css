@@ -1,0 +1,14 @@
+body {
+    font: 12pt Arial;
+    background-color: #f5cac3;
+}
+
+button {
+    font-size: 16pt;
+    background-color: #bbd0ff;
+    padding: 20px;
+}
+
+#saida {
+    font-size: 15pt;
+}

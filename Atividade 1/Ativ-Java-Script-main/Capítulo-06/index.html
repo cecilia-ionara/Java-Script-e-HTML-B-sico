@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Capítulo 06</title>
+</head>
+
+<body>
+    <h1>Trabalhando com Números</h1>
+    <button onclick="inicio()">Clique para calcular</button>
+    <section id="resultado">
+    </section>
+
+    <script>
+        window.alert('Seja bem-vindo(a) ao meu site!')
+        function inicio() {
+            let num = Number(window.prompt('Insira um número para calcular:'))
+            let res = document.querySelector('#resultado')
+
+            res.innerHTML = `<p>O dobro de ${num} é ${num * 2} e a metade é   
+                ${num / 2}!</p>`
+        }
+    </script>
+</body>
+
+</html>
